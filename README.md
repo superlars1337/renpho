@@ -1,14 +1,14 @@
 # renpho
+
 renpho renames your photo files with information from its exif info
-Short: "renpho renames your photo files with information from its exif info",
 
 Finding photos is difficult when each picture is named DSC-xxx.
 renpho will rename these files and adds the date and time from the photo exif data
-as the filename AND the files timestamp. 
+as the filename AND the files timestamp. So all your photos will be sorted according to their creation timestamp.
 
 JPG and RAW files are moved to different directories.
 
-````bash
+```bash
 renpho -l "Xmas Party" -dryrun -p /demo
 
 ░░░░░░░░░░░░░░░░░
@@ -26,6 +26,6 @@ renpho -l "Xmas Party" -dryrun -p /demo
 ❕ INFO: moving DSCF3523.JPG -> /2021-12-12_Xmas-Party_JPG/2019-01-18-00h01m11_X-T1_DSCF3523.JPG
 ❕ INFO: moving LDN_9186.JPG -> /2021-12-12_Xmas-Party_JPG/2021-11-19-12h18m12_NIKON-D750_LDN_9186.JPG
 🏁 YAY - All done :)
-````
+```
 
-Don't hit me - it's my first golang project... ^_^v
+Don't hit me - it's my first golang project... ^\_^v
